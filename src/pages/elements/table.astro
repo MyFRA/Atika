@@ -6,7 +6,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
     <div class="w-full">
         <!-- Breadcrumb -->
         <div class="flex items-center pb-7 overflow-x-auto whitespace-nowrap">
-            <a href="#" class="text-gray-600 dark:text-gray-200">
+            <a href="#" class="text-gray-600">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-5 h-5"
@@ -19,28 +19,21 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                 </svg>
             </a>
 
-            <span class="mx-5 text-gray-500 dark:text-gray-300"> /</span>
+            <span class="mx-5 text-gray-500"> /</span>
 
-            <span class="text-gray-600 dark:text-gray-200"> Elements</span>
+            <span class="text-gray-600"> Elements</span>
 
-            <span class="mx-5 text-gray-500 dark:text-gray-300"> /</span>
+            <span class="mx-5 text-gray-500"> /</span>
 
-            <a
-                href="#"
-                class="text-blue-600 dark:text-blue-400 hover:underline"
-            >
-                Table
-            </a>
+            <a href="#" class="text-blue-600 hover:underline"> Table</a>
         </div>
         <!-- End of Breadcrumb -->
 
         <!-- Basic Table -->
         <div class="card">
-            <h2 class="text-lg font-medium text-gray-800 dark:text-white">
-                Customers
-            </h2>
+            <h2 class="text-lg font-medium text-gray-800">Customers</h2>
 
-            <p class="mt-1 text-sm text-gray-500 dark:text-gray-300">
+            <p class="mt-1 text-sm text-gray-500">
                 These companies have purchased in the last 12 months.
             </p>
 
@@ -50,16 +43,14 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                         class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8"
                     >
                         <div
-                            class="overflow-hidden border border-gray-200 dark:border-gray-700 md:rounded-lg"
+                            class="overflow-hidden border border-gray-200 md:rounded-lg"
                         >
-                            <table
-                                class="min-w-full divide-y divide-gray-200 dark:divide-gray-700"
-                            >
-                                <thead class="bg-gray-50 dark:bg-gray-800">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
                                     <tr>
                                         <th
                                             scope="col"
-                                            class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500"
                                         >
                                             <button
                                                 class="flex items-center gap-x-3 focus:outline-none"
@@ -96,27 +87,27 @@ import AppLayout from "./../../layouts/AppLayout.astro";
 
                                         <th
                                             scope="col"
-                                            class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                         >
                                             Status
                                         </th>
 
                                         <th
                                             scope="col"
-                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                         >
                                             About
                                         </th>
 
                                         <th
                                             scope="col"
-                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                             >Users</th
                                         >
 
                                         <th
                                             scope="col"
-                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                             >License use</th
                                         >
 
@@ -129,7 +120,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                     </tr>
                                 </thead>
                                 <tbody
-                                    class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900"
+                                    class="bg-white divide-y divide-gray-200"
                                 >
                                     <tr>
                                         <td
@@ -137,12 +128,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div>
                                                 <h2
-                                                    class="font-medium text-gray-800 dark:text-white"
+                                                    class="font-medium text-gray-800"
                                                 >
                                                     Catalog
                                                 </h2>
                                                 <p
-                                                    class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                    class="text-sm font-normal text-gray-600"
                                                 >
                                                     catalogapp.io
                                                 </p>
@@ -152,7 +143,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60"
                                             >
                                                 Customer
                                             </div>
@@ -161,14 +152,10 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <div>
-                                                <h4
-                                                    class="text-gray-700 dark:text-gray-200"
-                                                >
+                                                <h4 class="text-gray-700">
                                                     Content curating app
                                                 </h4>
-                                                <p
-                                                    class="text-gray-500 dark:text-gray-400"
-                                                >
+                                                <p class="text-gray-500">
                                                     Brings all your news into
                                                     one place
                                                 </p>
@@ -179,22 +166,22 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div class="flex items-center">
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
@@ -223,7 +210,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <button
-                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100"
+                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg hover:bg-gray-100"
                                             >
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -249,12 +236,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div>
                                                 <h2
-                                                    class="font-medium text-gray-800 dark:text-white"
+                                                    class="font-medium text-gray-800"
                                                 >
                                                     Circooles
                                                 </h2>
                                                 <p
-                                                    class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                    class="text-sm font-normal text-gray-600"
                                                 >
                                                     getcirooles.com
                                                 </p>
@@ -264,7 +251,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline px-3 py-1 text-sm font-normal text-gray-500 bg-gray-100 rounded-full dark:text-gray-400 gap-x-2 dark:bg-gray-800"
+                                                class="inline px-3 py-1 text-sm font-normal text-gray-500 bg-gray-100 rounded-full gap-x-2"
                                             >
                                                 Churned
                                             </div>
@@ -273,14 +260,10 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <div>
-                                                <h4
-                                                    class="text-gray-700 dark:text-gray-200"
-                                                >
+                                                <h4 class="text-gray-700">
                                                     Design software
                                                 </h4>
-                                                <p
-                                                    class="text-gray-500 dark:text-gray-400"
-                                                >
+                                                <p class="text-gray-500">
                                                     Super lightweight design app
                                                 </p>
                                             </div>
@@ -290,22 +273,22 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div class="flex items-center">
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
@@ -334,7 +317,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <button
-                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100"
+                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg hover:bg-gray-100"
                                             >
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -360,12 +343,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div>
                                                 <h2
-                                                    class="font-medium text-gray-800 dark:text-white"
+                                                    class="font-medium text-gray-800"
                                                 >
                                                     Sisyphus
                                                 </h2>
                                                 <p
-                                                    class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                    class="text-sm font-normal text-gray-600"
                                                 >
                                                     sisyphus.com
                                                 </p>
@@ -375,7 +358,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60"
                                             >
                                                 Customer
                                             </div>
@@ -384,14 +367,10 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <div>
-                                                <h4
-                                                    class="text-gray-700 dark:text-gray-200"
-                                                >
+                                                <h4 class="text-gray-700">
                                                     Automation and workflow
                                                 </h4>
-                                                <p
-                                                    class="text-gray-500 dark:text-gray-400"
-                                                >
+                                                <p class="text-gray-500">
                                                     Time tracking, invoicing and
                                                     expenses
                                                 </p>
@@ -402,22 +381,22 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div class="flex items-center">
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
@@ -446,7 +425,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <button
-                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100"
+                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg hover:bg-gray-100"
                                             >
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -472,12 +451,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div>
                                                 <h2
-                                                    class="font-medium text-gray-800 dark:text-white"
+                                                    class="font-medium text-gray-800"
                                                 >
                                                     Hourglass
                                                 </h2>
                                                 <p
-                                                    class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                    class="text-sm font-normal text-gray-600"
                                                 >
                                                     hourglass.app
                                                 </p>
@@ -487,7 +466,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline px-3 py-1 text-sm font-normal text-gray-500 bg-gray-100 rounded-full dark:text-gray-400 gap-x-2 dark:bg-gray-800"
+                                                class="inline px-3 py-1 text-sm font-normal text-gray-500 bg-gray-100 rounded-full gap-x-2"
                                             >
                                                 Churned
                                             </div>
@@ -496,14 +475,10 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <div>
-                                                <h4
-                                                    class="text-gray-700 dark:text-gray-200"
-                                                >
+                                                <h4 class="text-gray-700">
                                                     Productivity app
                                                 </h4>
-                                                <p
-                                                    class="text-gray-500 dark:text-gray-400"
-                                                >
+                                                <p class="text-gray-500">
                                                     Time management and
                                                     productivity
                                                 </p>
@@ -514,22 +489,22 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div class="flex items-center">
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
@@ -558,7 +533,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <button
-                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100"
+                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg hover:bg-gray-100"
                                             >
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -584,12 +559,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div>
                                                 <h2
-                                                    class="font-medium text-gray-800 dark:text-white"
+                                                    class="font-medium text-gray-800"
                                                 >
                                                     Quotient
                                                 </h2>
                                                 <p
-                                                    class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                    class="text-sm font-normal text-gray-600"
                                                 >
                                                     quotient.co
                                                 </p>
@@ -599,7 +574,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60"
                                             >
                                                 Customer
                                             </div>
@@ -608,14 +583,10 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <div>
-                                                <h4
-                                                    class="text-gray-700 dark:text-gray-200"
-                                                >
+                                                <h4 class="text-gray-700">
                                                     Sales CRM
                                                 </h4>
-                                                <p
-                                                    class="text-gray-500 dark:text-gray-400"
-                                                >
+                                                <p class="text-gray-500">
                                                     Web-based sales doc
                                                     management
                                                 </p>
@@ -626,22 +597,22 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                         >
                                             <div class="flex items-center">
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
                                                     alt=""
                                                 />
                                                 <img
-                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full dark:border-gray-700 shrink-0"
+                                                    class="object-cover w-6 h-6 -mx-1 border-2 border-white rounded-full shrink-0"
                                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
                                                     alt=""
                                                 />
@@ -670,7 +641,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-4 py-4 text-sm whitespace-nowrap"
                                         >
                                             <button
-                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg dark:text-gray-300 hover:bg-gray-100"
+                                                class="px-1 py-1 text-gray-500 transition-colors duration-200 rounded-lg hover:bg-gray-100"
                                             >
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -699,7 +670,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
             <div class="flex items-center justify-between mt-6">
                 <a
                     href="#"
-                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100 dark:bg-gray-900 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800"
+                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -721,44 +692,44 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                 <div class="items-center hidden md:flex gap-x-3">
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-blue-500 rounded-md dark:bg-gray-800 bg-blue-100/60"
+                        class="px-2 py-1 text-sm text-blue-500 rounded-md bg-blue-100/60"
                         >1</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >2</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >3</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >...</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >12</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >13</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >14</a
                     >
                 </div>
 
                 <a
                     href="#"
-                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100 dark:bg-gray-900 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800"
+                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100"
                 >
                     <span> Next</span>
 
@@ -783,12 +754,10 @@ import AppLayout from "./../../layouts/AppLayout.astro";
         <!-- Table With Avatar -->
         <div class="card">
             <div class="flex items-center gap-x-3">
-                <h2 class="text-lg font-medium text-gray-800 dark:text-white">
-                    Team members
-                </h2>
+                <h2 class="text-lg font-medium text-gray-800">Team members</h2>
 
                 <span
-                    class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400"
+                    class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full"
                     >100 users</span
                 >
             </div>
@@ -799,23 +768,21 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                         class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8"
                     >
                         <div
-                            class="overflow-hidden border border-gray-200 dark:border-gray-700 md:rounded-lg"
+                            class="overflow-hidden border border-gray-200 md:rounded-lg"
                         >
-                            <table
-                                class="min-w-full divide-y divide-gray-200 dark:divide-gray-700"
-                            >
-                                <thead class="bg-gray-50 dark:bg-gray-800">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
                                     <tr>
                                         <th
                                             scope="col"
-                                            class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500"
                                         >
                                             <div
                                                 class="flex items-center gap-x-3"
                                             >
                                                 <input
                                                     type="checkbox"
-                                                    class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"
+                                                    class="text-blue-500 border-gray-300 rounded"
                                                 />
                                                 <span>Name</span>
                                             </div>
@@ -823,7 +790,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
 
                                         <th
                                             scope="col"
-                                            class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                         >
                                             <button
                                                 class="flex items-center gap-x-2"
@@ -860,7 +827,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
 
                                         <th
                                             scope="col"
-                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                         >
                                             <button
                                                 class="flex items-center gap-x-2"
@@ -886,13 +853,13 @@ import AppLayout from "./../../layouts/AppLayout.astro";
 
                                         <th
                                             scope="col"
-                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                             >Email address</th
                                         >
 
                                         <th
                                             scope="col"
-                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
+                                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500"
                                             >Teams</th
                                         >
 
@@ -905,7 +872,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                     </tr>
                                 </thead>
                                 <tbody
-                                    class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900"
+                                    class="bg-white divide-y divide-gray-200"
                                 >
                                     <tr>
                                         <td
@@ -916,7 +883,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             >
                                                 <input
                                                     type="checkbox"
-                                                    class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"
+                                                    class="text-blue-500 border-gray-300 rounded"
                                                 />
 
                                                 <div
@@ -929,12 +896,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                     />
                                                     <div>
                                                         <h2
-                                                            class="font-medium text-gray-800 dark:text-white"
+                                                            class="font-medium text-gray-800"
                                                         >
                                                             Arthur Melo
                                                         </h2>
                                                         <p
-                                                            class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                            class="text-sm font-normal text-gray-600"
                                                         >
                                                             @authurmelo
                                                         </p>
@@ -946,7 +913,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium text-gray-700 whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60"
                                             >
                                                 <span
                                                     class="h-1.5 w-1.5 rounded-full bg-emerald-500"
@@ -960,11 +927,11 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             </div>
                                         </td>
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >Design Director</td
                                         >
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >authurmelo@example.com</td
                                         >
                                         <td
@@ -974,17 +941,17 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-2"
                                             >
                                                 <p
-                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60"
+                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full bg-indigo-100/60"
                                                 >
                                                     Design
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full dark:bg-gray-800 bg-blue-100/60"
+                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full bg-blue-100/60"
                                                 >
                                                     Product
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full dark:bg-gray-800 bg-pink-100/60"
+                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full bg-pink-100/60"
                                                 >
                                                     Marketing
                                                 </p>
@@ -997,7 +964,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-6"
                                             >
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-red-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1016,7 +983,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 </button>
 
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-yellow-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1046,7 +1013,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             >
                                                 <input
                                                     type="checkbox"
-                                                    class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"
+                                                    class="text-blue-500 border-gray-300 rounded"
                                                 />
 
                                                 <div
@@ -1059,12 +1026,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                     />
                                                     <div>
                                                         <h2
-                                                            class="font-medium text-gray-800 dark:text-white"
+                                                            class="font-medium text-gray-800"
                                                         >
                                                             Amelia. Anderson
                                                         </h2>
                                                         <p
-                                                            class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                            class="text-sm font-normal text-gray-600"
                                                         >
                                                             @ameliaanderson
                                                         </p>
@@ -1076,7 +1043,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium text-gray-700 whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60"
                                             >
                                                 <span
                                                     class="h-1.5 w-1.5 rounded-full bg-emerald-500"
@@ -1090,11 +1057,11 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             </div>
                                         </td>
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >Lead Developer</td
                                         >
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >ameliaanderson@example.com</td
                                         >
                                         <td
@@ -1104,17 +1071,17 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-2"
                                             >
                                                 <p
-                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60"
+                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full bg-indigo-100/60"
                                                 >
                                                     Design
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full dark:bg-gray-800 bg-blue-100/60"
+                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full bg-blue-100/60"
                                                 >
                                                     Product
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full dark:bg-gray-800 bg-pink-100/60"
+                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full bg-pink-100/60"
                                                 >
                                                     Marketing
                                                 </p>
@@ -1127,7 +1094,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-6"
                                             >
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-red-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1146,7 +1113,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 </button>
 
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-yellow-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1176,7 +1143,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             >
                                                 <input
                                                     type="checkbox"
-                                                    class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"
+                                                    class="text-blue-500 border-gray-300 rounded"
                                                 />
 
                                                 <div
@@ -1189,12 +1156,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                     />
                                                     <div>
                                                         <h2
-                                                            class="font-medium text-gray-800 dark:text-white"
+                                                            class="font-medium text-gray-800"
                                                         >
                                                             junior REIS
                                                         </h2>
                                                         <p
-                                                            class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                            class="text-sm font-normal text-gray-600"
                                                         >
                                                             @junior
                                                         </p>
@@ -1206,7 +1173,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium text-gray-700 whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60"
                                             >
                                                 <span
                                                     class="h-1.5 w-1.5 rounded-full bg-emerald-500"
@@ -1220,11 +1187,11 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             </div>
                                         </td>
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >Products Managers</td
                                         >
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >junior@example.com</td
                                         >
                                         <td
@@ -1234,17 +1201,17 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-2"
                                             >
                                                 <p
-                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60"
+                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full bg-indigo-100/60"
                                                 >
                                                     Design
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full dark:bg-gray-800 bg-blue-100/60"
+                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full bg-blue-100/60"
                                                 >
                                                     Product
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full dark:bg-gray-800 bg-pink-100/60"
+                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full bg-pink-100/60"
                                                 >
                                                     Marketing
                                                 </p>
@@ -1257,7 +1224,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-6"
                                             >
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-red-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1276,7 +1243,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 </button>
 
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-yellow-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1306,7 +1273,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             >
                                                 <input
                                                     type="checkbox"
-                                                    class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"
+                                                    class="text-blue-500 border-gray-300 rounded"
                                                 />
 
                                                 <div
@@ -1319,12 +1286,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                     />
                                                     <div>
                                                         <h2
-                                                            class="font-medium text-gray-800 dark:text-white"
+                                                            class="font-medium text-gray-800"
                                                         >
                                                             Olivia Wathan
                                                         </h2>
                                                         <p
-                                                            class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                            class="text-sm font-normal text-gray-600"
                                                         >
                                                             @oliviawathan
                                                         </p>
@@ -1336,7 +1303,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium text-gray-700 whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60"
                                             >
                                                 <span
                                                     class="h-1.5 w-1.5 rounded-full bg-emerald-500"
@@ -1350,11 +1317,11 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             </div>
                                         </td>
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >Lead Designer</td
                                         >
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >oliviawathan@example.com</td
                                         >
                                         <td
@@ -1364,17 +1331,17 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-2"
                                             >
                                                 <p
-                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60"
+                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full bg-indigo-100/60"
                                                 >
                                                     Design
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full dark:bg-gray-800 bg-blue-100/60"
+                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full bg-blue-100/60"
                                                 >
                                                     Product
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full dark:bg-gray-800 bg-pink-100/60"
+                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full bg-pink-100/60"
                                                 >
                                                     Marketing
                                                 </p>
@@ -1387,7 +1354,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-6"
                                             >
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-red-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1406,7 +1373,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 </button>
 
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-yellow-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1436,7 +1403,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             >
                                                 <input
                                                     type="checkbox"
-                                                    class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"
+                                                    class="text-blue-500 border-gray-300 rounded"
                                                 />
 
                                                 <div
@@ -1449,12 +1416,12 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                     />
                                                     <div>
                                                         <h2
-                                                            class="font-medium text-gray-800 dark:text-white"
+                                                            class="font-medium text-gray-800"
                                                         >
                                                             Mia
                                                         </h2>
                                                         <p
-                                                            class="text-sm font-normal text-gray-600 dark:text-gray-400"
+                                                            class="text-sm font-normal text-gray-600"
                                                         >
                                                             @mia
                                                         </p>
@@ -1466,7 +1433,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             class="px-12 py-4 text-sm font-medium text-gray-700 whitespace-nowrap"
                                         >
                                             <div
-                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60 dark:bg-gray-800"
+                                                class="inline-flex items-center px-3 py-1 rounded-full gap-x-2 bg-emerald-100/60"
                                             >
                                                 <span
                                                     class="h-1.5 w-1.5 rounded-full bg-emerald-500"
@@ -1480,11 +1447,11 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                             </div>
                                         </td>
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >Graphic Designer</td
                                         >
                                         <td
-                                            class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap"
+                                            class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"
                                             >mia@example.com</td
                                         >
                                         <td
@@ -1494,17 +1461,17 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-2"
                                             >
                                                 <p
-                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60"
+                                                    class="px-3 py-1 text-xs text-indigo-500 rounded-full bg-indigo-100/60"
                                                 >
                                                     Design
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full dark:bg-gray-800 bg-blue-100/60"
+                                                    class="px-3 py-1 text-xs text-blue-500 rounded-full bg-blue-100/60"
                                                 >
                                                     Product
                                                 </p>
                                                 <p
-                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full dark:bg-gray-800 bg-pink-100/60"
+                                                    class="px-3 py-1 text-xs text-pink-500 rounded-full bg-pink-100/60"
                                                 >
                                                     Marketing
                                                 </p>
@@ -1517,7 +1484,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 class="flex items-center gap-x-6"
                                             >
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-red-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1536,7 +1503,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                                                 </button>
 
                                                 <button
-                                                    class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none"
+                                                    class="text-gray-500 transition-colors duration-200 hover:text-yellow-500 focus:outline-none"
                                                 >
                                                     <svg
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -1566,7 +1533,7 @@ import AppLayout from "./../../layouts/AppLayout.astro";
             <div class="flex items-center justify-between mt-6">
                 <a
                     href="#"
-                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100 dark:bg-gray-900 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800"
+                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1588,44 +1555,44 @@ import AppLayout from "./../../layouts/AppLayout.astro";
                 <div class="items-center hidden lg:flex gap-x-3">
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-blue-500 rounded-md dark:bg-gray-800 bg-blue-100/60"
+                        class="px-2 py-1 text-sm text-blue-500 rounded-md bg-blue-100/60"
                         >1</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >2</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >3</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >...</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >12</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >13</a
                     >
                     <a
                         href="#"
-                        class="px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100"
+                        class="px-2 py-1 text-sm text-gray-500 rounded-md hover:bg-gray-100"
                         >14</a
                     >
                 </div>
 
                 <a
                     href="#"
-                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100 dark:bg-gray-900 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800"
+                    class="flex items-center px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md gap-x-2 hover:bg-gray-100"
                 >
                     <span> Next</span>
 
