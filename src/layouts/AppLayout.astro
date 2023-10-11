@@ -1,0 +1,30 @@
+---
+import Navbar from "./partials/Navbar.astro";
+import Sidebar from "./partials/Sidebar.astro";
+import "./../styles/base.css";
+
+const { sidebarActive } = Astro.props;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Atika | Free Tailwind CSS Admin Dashboard</title>
+    </head>
+    <body>
+        <Navbar />
+        <Sidebar {sidebarActive} />
+        <div class="pl-[248px]">
+            <slot />
+        </div>
+
+        <script is:inline src="/js/atika.js"></script>
+    </body>
+</html>

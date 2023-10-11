@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Submenu Item Active */
+.submenu-item.active a:not(.submenu-accord-item) {
+    @apply bg-black text-white
+}
+
+.submenu-item.active>div:first-child {
+    @apply bg-gray-100
+}
+
+.submenu-item.active>div:first-child .submenu-accord {
+    @apply flex
+}
+
+/* Sidebar Submenu Accordion */
+.submenu-item:not(.active) .submenu-accord:not(.active) {
+    @apply hidden
+}
+
+.submenu-accord.active {
+    @apply flex
+}
