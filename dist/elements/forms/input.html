@@ -99,7 +99,7 @@
                 <h4 class="font-semibold text-xs pb-3">MENU</h4>
 
                 <ul class="flex flex-col gap-y-1">
-                    <li class="submenu-item active">
+                    <li class="submenu-item ">
                         <div class="cursor-pointer flex justify-between items-center px-3 py-2 rounded-md">
                             <div class="flex gap-x-2.5 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
@@ -132,7 +132,7 @@
                 <h4 class="font-semibold text-xs pb-3">ELEMENTS</h4>
 
                 <ul class="flex flex-col gap-y-1">
-                    <li class="submenu-item ">
+                    <li class="submenu-item active">
                         <div class="cursor-pointer flex justify-between items-center px-3 py-2 rounded-md">
                             <div class="flex gap-x-2.5 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -177,6 +177,63 @@
         <div class="pl-[248px] pt-[8vh] bg-slate-100 min-h-[100vh]">
             <div class="p-8 w-full">
                 
+    <div class="w-full">
+        <!-- Breadcrumb -->
+        <div class="flex items-center pb-7 overflow-x-auto whitespace-nowrap">
+            <a href="#" class="text-gray-600 dark:text-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+                </svg>
+            </a>
+
+            <span class="mx-5 text-gray-500 dark:text-gray-300"> /</span>
+
+            <span class="text-gray-600 dark:text-gray-200"> Elements</span>
+
+            <span class="mx-5 text-gray-500 dark:text-gray-300"> /</span>
+
+            <span class="text-gray-600 dark:text-gray-200"> Forms</span>
+
+            <span class="mx-5 text-gray-500 dark:text-gray-300"> /</span>
+            <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
+                Input
+            </a>
+        </div>
+        <!-- End of Breadcrumb -->
+
+        <div class="flex">
+            <div class="w-6/12">
+                <!-- Basic Input -->
+                <div class="card">
+                    <div class="flex items-center gap-x-3">
+                        <h2 class="text-lg font-medium text-gray-800 dark:text-white">
+                            Basic Input
+                        </h2>
+                    </div>
+
+                    <div class="mt-6">
+                        <div class="mb-4">
+                            <label for="username" class="block text-sm text-gray-500 dark:text-gray-300">Username</label>
+
+                            <input type="text" placeholder="John Doe" class="block mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm text-gray-500 dark:text-gray-300">Email</label>
+
+                            <input type="email" placeholder="johndoe@mail.com" class="block mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300">
+                        </div>
+                        <div class="mb-4">
+                            <label for="Description" class="block text-sm text-gray-500 dark:text-gray-300">Description</label>
+
+                            <textarea placeholder="lorem..." class="block mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-4 h-32 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Basic Input -->
+            </div>
+        </div>
+    </div>
+
             </div>
         </div>
 

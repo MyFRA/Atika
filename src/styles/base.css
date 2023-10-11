@@ -25,5 +25,5 @@
 }
 
 .card {
-    @apply border bg-white p-3 rounded-lg block w-full mb-5
+    @apply border bg-white p-7 rounded-lg block w-full mb-5
 }
