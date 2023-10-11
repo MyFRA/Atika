@@ -21,10 +21,13 @@ const { sidebarActive } = Astro.props;
     <body>
         <Navbar />
         <Sidebar {sidebarActive} />
-        <div class="pl-[248px]">
-            <slot />
+        <div class="pl-[248px] pt-[8vh] bg-slate-100 min-h-[90vh]">
+            <div class="p-8 w-full">
+                <slot />
+            </div>
         </div>
 
         <script is:inline src="/js/atika.js"></script>
+        <script src="//unpkg.com/alpinejs" defer></script>
     </body>
 </html>

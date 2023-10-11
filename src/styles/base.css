@@ -23,3 +23,7 @@
 .submenu-accord.active {
     @apply flex
 }
+
+.card {
+    @apply border bg-white p-3 rounded-lg block w-full mb-5
+}
