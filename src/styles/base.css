@@ -27,3 +27,43 @@
 .card {
     @apply border bg-white p-7 rounded-lg block w-full mb-5
 }
+
+/* Toggle Sidebar Mobile */
+@media (max-width: 1023px) {
+    .sidebar {
+        @apply w-[40vw]
+    }
+
+    .nav-profile {
+        @apply hidden
+    }
+
+    .sidebar:not(.show) {
+        @apply hidden
+    }
+
+    .sidebar.show::before {
+        @apply w-[60vw] h-screen bg-gray-100 bg-opacity-30 content-[''] fixed top-0 right-0
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        @apply w-[60vw]
+    }
+
+    .sidebar.show::before {
+        @apply w-[40vw] h-screen bg-gray-100 bg-opacity-30 content-[''] fixed top-0 right-0
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .sidebar {
+        @apply fixed w-[248px]
+    }
+
+    .nav-profile {
+        @apply inline-block
+    }
+}

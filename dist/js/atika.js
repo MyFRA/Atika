@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     renderFunctionalitySidebarItemDropdown()
     reloadChevronActiveAfterReloaded()
+    toggledMobileSidebar()
 })
 
 /**
@@ -102,3 +103,19 @@ const reloadChevronActiveAfterReloaded = () => {
     })
 }
 
+/**
+ * Event when close sidebar toggled
+ * 
+ */
+const toggledMobileSidebar = () => {
+    const closeSidebarBtnElement = document.querySelector('.close-sidebar-btn')
+    const showSidebarBtnElement = document.querySelector('.show-sidebar-btn')
+    const sidebarElement = document.querySelector('.sidebar')
+
+    closeSidebarBtnElement.addEventListener('click', () => {
+        sidebarElement.classList.toggle('show')
+    })
+    showSidebarBtnElement.addEventListener('click', () => {
+        sidebarElement.classList.toggle('show')
+    })
+}
