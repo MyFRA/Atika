@@ -17,11 +17,11 @@
 
 /* Sidebar Submenu Accordion */
 .submenu-item:not(.active) .submenu-accord:not(.active) {
-    @apply hidden
+    @apply max-h-0 h-0 overflow-hidden py-0
 }
 
 .submenu-accord.active {
-    @apply flex
+    @apply max-h-max h-auto py-4
 }
 
 .card {
@@ -39,7 +39,7 @@
     }
 
     .sidebar:not(.show) {
-        @apply hidden
+        @apply w-0 overflow-hidden
     }
 
     .sidebar.show::before {
