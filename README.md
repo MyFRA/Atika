@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Atika is a free Admin Tailwind CSS Admin Dashboard that built using <b>Astro</b>, <b>TailwindCSS</b> & <b>Meraki UI</b>
+  Atika is a free Tailwind CSS Admin Dashboard that built using <b>Astro</b>, <b>TailwindCSS</b> & <b>Meraki UI</b>
 </p>
 <kbd>
 <img src="https://github.com/MyFRA/Atika/assets/60420319/e9938a10-d904-4efe-b41a-2304750da2e6.png" />
