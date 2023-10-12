@@ -1,10 +1,3 @@
-
-document.addEventListener('DOMContentLoaded', () => {
-    renderFunctionalitySidebarItemDropdown()
-    reloadChevronActiveAfterReloaded()
-    toggledMobileSidebar()
-})
-
 /**
  * Sidebar Submenu Accordion
  * 
@@ -15,6 +8,13 @@ const renderFunctionalitySidebarItemDropdown = () => {
         submenuItemElement.addEventListener('click', () => {
             const submenuItemAccordElement = submenuItemElement.querySelector('ul')
             const submenuItemChevronElement = submenuItemElement.querySelector('.submenu-item-chevron')
+
+            submenuItemElements.forEach((submenuItemElementLayer2) => {
+                if (submenuItemElementLayer2 != submenuItemElement) {
+                    submenuItemElementLayer2.classList.contains('active') ? submenuItemElementLayer2.classList.remove('active') : ''
+                }
+            })
+
             submenuItemElement.classList.toggle('active')
 
             if (submenuItemAccordElement) {
@@ -119,3 +119,11 @@ const toggledMobileSidebar = () => {
         sidebarElement.classList.toggle('show')
     })
 }
+
+/**
+ * Initialization
+ * 
+ */
+renderFunctionalitySidebarItemDropdown()
+reloadChevronActiveAfterReloaded()
+toggledMobileSidebar()
