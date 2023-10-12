@@ -11,8 +11,8 @@
     @apply bg-gray-100
 }
 
-.submenu-item.active>div:first-child .submenu-accord {
-    @apply flex
+.submenu-item.active>.submenu-accord {
+    @apply flex py-4
 }
 
 /* Sidebar Submenu Accordion */
@@ -22,6 +22,10 @@
 
 .submenu-accord.active {
     @apply max-h-max h-auto py-4
+}
+
+.small-pad-card {
+    @apply border bg-white p-3.5 rounded-lg block w-full mb-3
 }
 
 .card {

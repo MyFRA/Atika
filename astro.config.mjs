@@ -10,5 +10,8 @@ export default defineConfig({
     },
     integrations: [tailwind({
         applyBaseStyles: false,
-    })]
+    })],
+    redirects: {
+        '/': '/menu/dashboard/basic-dashboard.html'
+    }
 });
