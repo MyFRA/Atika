@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Atika Tailwind Dashboard
+  Atika TailwindCSS Dashboard
 </h1>
 
 <p align="center">
