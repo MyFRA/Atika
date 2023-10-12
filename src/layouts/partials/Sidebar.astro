@@ -264,6 +264,60 @@ const { sidebarActive } = Astro.props;
                     </li>
                 </ul>
             </li>
+            <li>
+                <h4 class="font-semibold text-xs pb-3">PAGES</h4>
+
+                <ul class="flex flex-col gap-y-1">
+                    <li class={`submenu-item`}>
+                        <a
+                            href="/pages/login.html"
+                            class="cursor-pointer flex justify-between items-center px-3 py-2 rounded-md"
+                        >
+                            <div class="flex gap-x-2.5 items-center">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="w-5 h-5"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z"
+                                    ></path>
+                                </svg>
+                                <span class="text-sm">Login</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class={`submenu-item`}>
+                        <a
+                            href="/pages/register.html"
+                            class="cursor-pointer flex justify-between items-center px-3 py-2 rounded-md"
+                        >
+                            <div class="flex gap-x-2.5 items-center">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="w-6 h-6"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5"
+                                    ></path>
+                                </svg>
+                                <span class="text-sm">Register</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </aside>
