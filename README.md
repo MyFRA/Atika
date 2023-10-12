@@ -1,35 +1,35 @@
-# Astro Starter Kit: Minimal
+<p align="center" width="100%">
+  <img src="https://github.com/MyFRA/Atika/assets/60420319/764f241a-1593-4557-8cad-71f19091dd09" alt="Atika" width="75" align="center"/>
+</p>
 
-```sh
-npm create astro@latest -- --template minimal
-```
+<h1 align="center">
+  Atika Tailwind CSS Dashboard
+</h1>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+<p align="center">
+  Atika is a free Tailwind CSS Admin Dashboard that built using <a href="https://astro.build/"><b>Astro</b></a>, <a href="https://tailwindcss.com/"><b>Tailwind CSS</b></a> and <a href="https://merakiui.com/"><b>Meraki UI</b></a>
+</p>
+<kbd>
+<img src="https://github.com/MyFRA/Atika/assets/60420319/e9938a10-d904-4efe-b41a-2304750da2e6.png" />
+</kbd>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Project Structure
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Inside this project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
+├── dist/
 ├── src/
 │   └── pages/
-│       └── index.astro
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Static files that you can use directly to work on your project are in the **dist** folder.\
+The **src** folder is used for the development stage or source code for this admin dashboard
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -37,11 +37,10 @@ All commands are run from the root of the project, from a terminal:
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run build`           | Build static files to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Live Demo
+You can see the live demo here https://atika-dashboard.vercel.app
