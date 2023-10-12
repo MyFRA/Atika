@@ -1,3 +1,7 @@
+<p align="center" width="100%">
+  <img src="https://github.com/MyFRA/Atika/assets/60420319/764f241a-1593-4557-8cad-71f19091dd09" alt="Atika" width="75" align="center"/>
+</p>
+
 <h1 align="center">
   Atika Tailwind Dashboard
 </h1>
