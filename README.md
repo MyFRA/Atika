@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  Atika is a free Tailwind CSS Admin Dashboard that built using <a href="https://astro.build/"><b>Astro</b></a>, <a href="https://tailwindcss.com/"><b>Tailwind CSS</b></a> and <a href="https://merakiui.com/"><b>Meraki UI</b></a>
+  Atika is a free Tailwind CSS Admin Dashboard that built using <a href="https://astro.build/"><b>Astro</b></a>, <a href="https://tailwindcss.com/"><b>Tailwind CSS</b></a>, <a href="https://daisyui.com/"><b>DaisyUI</b></a> and <a href="https://merakiui.com/"><b>Meraki UI</b></a>
 </p>
 <kbd>
 <img src="https://github.com/MyFRA/Atika/assets/60420319/e9938a10-d904-4efe-b41a-2304750da2e6.png" />
