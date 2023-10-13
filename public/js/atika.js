@@ -10,7 +10,7 @@ const renderFunctionalitySidebarItemDropdown = () => {
             const submenuItemChevronElement = submenuItemElement.querySelector('.submenu-item-chevron')
 
             submenuItemElements.forEach((submenuItemElementLayer2) => {
-                if (submenuItemElementLayer2 != submenuItemElement) {
+                if (submenuItemElementLayer2 != submenuItemElement && !submenuItemElementLayer2.querySelector('.submenu-accord')) {
                     submenuItemElementLayer2.classList.contains('active') ? submenuItemElementLayer2.classList.remove('active') : ''
                 }
             })
