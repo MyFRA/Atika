@@ -15,7 +15,9 @@ const renderFunctionalitySidebarItemDropdown = () => {
                 }
             })
 
-            submenuItemElement.classList.toggle('active')
+            if (event.target.closest('li').classList.contains('submenu-item')) {
+                submenuItemElement.classList.toggle('active')
+            }
 
             if (submenuItemAccordElement) {
 
